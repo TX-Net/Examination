@@ -1,0 +1,13 @@
+server:
+  port: 9999
+# redis 配置
+jedis:
+  database: 15
+  host: 192.168.127.136
+  port: 6379
+  password:
+  connectionTimeout: 2000
+  maxTotal: 100
+  maxWaitMillis: 10000
+  maxIdle: 10
+  minIdle: 0
